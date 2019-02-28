@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arshinde.adzlok.RegistrationActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_marginTop="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33sp"
+            android:text="Register"
+            android:fontFamily="@font/zil"
+            android:textColor="#ff00"
+            android:textSize="50sp"
+            android:id="@+id/tv"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51sp"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle_username"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="35sp">
+            <ImageView
+                android:id="@+id/userid"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center_vertical"
+
+                android:src="@drawable/calll"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:background="@drawable/rectangle_username"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_toEndOf="@+id/userid"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51sp"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle_username"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="35sp">
+            <ImageView
+                android:id="@+id/passid"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center_vertical"
+
+                android:src="@drawable/key"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:background="@drawable/rectangle_username"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_toEndOf="@+id/userid"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51sp"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle_username"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="35sp">
+            <ImageView
+                android:id="@+id/passid"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center_vertical"
+
+                android:src="@drawable/key"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-enterPassword"
+                android:background="@drawable/rectangle_username"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_toEndOf="@+id/userid"
+                />
+
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/repass"
+            android:layout_gravity="center_horizontal"
+            android:text=" I agree the Terms and Condition"
+            android:textColor="#ff0000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51sp"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle_username"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="35sp">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#ff00"
+                android:text="REGISTER"
+                android:textColor="@color/white"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

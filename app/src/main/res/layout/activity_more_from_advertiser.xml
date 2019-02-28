@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arshinde.adzlok.MoreFromAdvertiserActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/appBarLayout">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:title="Advertiser Details"
+            app:titleTextColor="#505050"
+            android:background="#fff"
+            android:layout_height="?attr/actionBarSize"
+            />
+    </android.support.design.widget.AppBarLayout>
+        <SearchView
+            android:id="@+id/search_explore_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginBottom="15sp"
+            android:layout_marginTop="60sp"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:background="@drawable/search_rectangle">
+        </SearchView>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="110sp"
+        android:background="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Small Business Enterprises"
+        android:layout_below="@+id/view"
+        android:textSize="25sp"
+        android:textColor="#ff00"
+        android:id="@+id/textView" />
+
+    <ListView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"></ListView>
+
+
+
+
+
+
+
+</RelativeLayout>

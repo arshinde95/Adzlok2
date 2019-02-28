@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arshinde.adzlok.GetHelpActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/appBarLayout">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:title="Reach Us"
+            app:titleTextColor="#505050"
+            android:background="#fff"
+            android:layout_height="?attr/actionBarSize" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+            </RelativeLayout>
+<LinearLayout
+    android:id="@+id/gethelpLin"
+    android:layout_width="wrap_content"
+    android:layout_height="130sp"
+    android:orientation="vertical"
+    android:layout_marginVertical="60sp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130sp"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="130sp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginLeft="30sp"
+        android:text="CALL US"
+        android:textSize="24sp"
+        android:textColor="#ff0000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_marginLeft="30sp"
+
+        android:text="+91 xxxx-xxxxx"
+        android:textColor="#ff0000"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110sp"
+        android:layout_marginRight="10sp"
+        android:src="@drawable/gethelp"
+        android:layout_marginLeft="30sp"
+
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:orientation="vertical"
+    android:layout_below="@+id/gethelpLin">
+
+
+    <EditText
+        android:id="@+id/gethelp"
+        android:background="@drawable/rectangle_gethelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Compnay MailID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_gethelp"
+        android:hint="Subject"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:paddingBottom="70sp"
+        android:background="@drawable/rectangle_gethelp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Description"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:background="#ff00"
+        android:text="Send" />
+
+
+
+
+
+
+</RelativeLayout>

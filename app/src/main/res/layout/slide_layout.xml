@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/slideRelative"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_margin="15sp"
+        android:fontFamily="@font/zil"
+        />
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/zil"
+            android:text="Advertiser"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+
+        <ImageView
+        android:id="@+id/icons"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/ad" />
+
+
+
+    <TextView
+        android:id="@+id/desc"
+        android:fontFamily="@font/zil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="Description"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

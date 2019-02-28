@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ff00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="fade">#10000000</color>
+    <color name="trans">#00000000 </color>
+    <color name="slide1">#6db9ba</color>
+    <color name="slide2">#88d6e7</color>
+    <color name="slide3">#46d3f7</color>
+</resources>
